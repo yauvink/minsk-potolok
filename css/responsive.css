@@ -1,0 +1,310 @@
+/* < bootstrap settings > */
+/* </ bootstrap settings > */
+/* red */
+/* gray */
+/* blue */
+/* black */
+/* white */
+@media (max-width: 480px) {
+  .gallery.item1 .gallery-container .item1 li {
+    width: 50%;
+  }
+  .call.item1 h6 {
+    display: none;
+  }
+  .owl-carousel.item2 img {
+    display: none;
+  }
+  .owl-carousel.item2 figure {
+    padding: 25px;
+  }
+  .owl-carousel.item2 figcaption {
+    height: auto;
+    overflow: visible;
+  }
+  .owl-carousel.item2 figcaption p:before {
+    display: none;
+  }
+  .caption.item1 p {
+    font-size: 34px;
+    word-wrap: break-word;
+    margin-bottom: 30px;
+  }
+  .caption.item1 p strong {
+    font-size: 50px;
+  }
+  .price.item1 td:first-child {
+    padding: 5px;
+  }
+}
+@media (max-width: 767px) {
+  .page-header {
+    padding-top: 72px;
+  }
+  .page-header .carousel {
+    display: none;
+  }
+  .nav-open {
+    position: relative;
+    overflow: hidden;
+  }
+  .nav-open .page-nav {
+    left: 0;
+  }
+  .nav-open .page-header .intro {
+    left: 240px;
+  }
+  .nav-open .toggle-nav span:nth-child(2) {
+    opacity: 0;
+  }
+  .nav-open .toggle-nav span:first-child {
+    margin-top: 10px;
+    transform: rotate(45deg);
+  }
+  .nav-open .toggle-nav span:last-child {
+    margin-top: -10px;
+    transform: rotate(-45deg);
+  }
+  .nav-open .close-nav {
+    opacity: 1;
+    z-index: 99;
+  }
+  .page-header .intro {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 101;
+    padding: 24px 0;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+  }
+  .page-nav {
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: #fff;
+    padding: 15px 0;
+    top: 0;
+    left: -240px;
+    position: fixed;
+    width: 240px;
+    height: 100%;
+    z-index: 102;
+  }
+  .page-nav:before {
+    display: none;
+  }
+  .page-nav.double {
+    display: none;
+  }
+  .page-nav .nav-container {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .page-nav .nav-header {
+    float: none;
+  }
+  .page-nav .nav-header a {
+    margin-bottom: 40px;
+    font-size: 42px;
+    margin-left: -5px;
+  }
+  .page-nav .nav-header a:before {
+    display: none;
+  }
+  .page-nav .nav-toggle {
+    float: none;
+    padding-bottom: 70px;
+  }
+  .page-nav .nav-toggle > ul > li {
+    float: none;
+  }
+  .page-nav .nav-toggle > ul > li.active > a {
+    color: #eb4d4e;
+  }
+  .page-nav .nav-toggle > ul > li > a {
+    padding: 10px 15px;
+    color: #000;
+  }
+  .page-nav .nav-toggle > ul > li > a:hover {
+    color: #eb4d4e;
+  }
+  .page-nav .my-dropDown:before {
+    display: none;
+  }
+  .page-nav .my-dropDown-Menu {
+    display: block !important;
+    height: auto !important;
+    background-color: transparent;
+    position: relative;
+    text-align: left;
+    padding: 0;
+    width: auto;
+  }
+  .page-nav .my-dropDown-Menu:before {
+    display: none;
+  }
+  .page-nav .my-dropDown-Menu li.active > a {
+    color: #525252;
+  }
+  .page-nav .my-dropDown-Menu li > a {
+    color: #8b8b8b;
+    padding: 10px 10px 10px 40px;
+    font-size: 14px;
+  }
+  .page-nav .my-dropDown-Menu li > a:hover {
+    color: #eb4d4e;
+    opacity: 1;
+  }
+  .toggle-nav {
+    display: block;
+  }
+  .padding-1 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .head {
+    font-size: 24px;
+    margin-bottom: 60px;
+  }
+  .caption.item1 {
+    padding: 60px 0;
+  }
+  .content-intro.item1 {
+    background: url('../img/slide/slide1.jpg') no-repeat top center;
+    background-size: cover;
+    position: relative;
+    padding: 110px 0;
+  }
+  .content-intro.item1:before {
+    content: '';
+    position: absolute;
+    background-color: #4d5f77;
+    opacity: .7;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .content-intro.item1 li:not(:first-child) {
+    margin-top: 15px;
+  }
+  .content-intro.item1 h3 {
+    font-size: 24px;
+  }
+  .content-intro.item1 h3 > br {
+    display: none;
+  }
+  .content-intro.item1 .block-preview figure > a .price {
+    font-size: 18px;
+  }
+  .owl-carousel.item1,
+  .owl-carousel.item3 {
+    padding: 0;
+  }
+  .owl-carousel.item1 .owl-controls,
+  .owl-carousel.item3 .owl-controls {
+    top: -32.5px;
+    width: 100%;
+    position: absolute;
+  }
+  .owl-carousel.item1 .owl-controls .owl-dot,
+  .owl-carousel.item3 .owl-controls .owl-dot {
+    width: 20px;
+    height: 5px;
+    background-color: #ccc;
+    margin-right: 5px;
+    float: left;
+  }
+  .owl-carousel.item1 .owl-controls .owl-dot.active,
+  .owl-carousel.item3 .owl-controls .owl-dot.active {
+    background-color: #eb4d4e;
+  }
+  .block-preview h4 {
+    font-size: 20px;
+  }
+  .list.item1 li:nth-child(3),
+  .list.item1 li:nth-child(4) {
+    margin-top: 30px;
+  }
+  .call.item1 .phone {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  .call.item1 input[type='text'],
+  .call.item1 input[type='submit'] {
+    width: 100%;
+  }
+  .form-caption.item1 {
+    margin-top: 10px;
+  }
+  .caption.item1 .link.item1 {
+    margin: 0;
+    font-size: 18px;
+    padding: 14px;
+  }
+  .link {
+    width: 100%;
+  }
+  .gallery-filter {
+    display: none;
+  }
+  .feedback input[type='text'],
+  .feedback textarea {
+    margin-bottom: 20px;
+  }
+  .header-caption {
+    padding-top: 110px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .caption.item1 .link {
+    margin: 0 5px;
+  }
+  .content-intro.item1 h3 {
+    font-size: 20px;
+  }
+  .page-nav:before {
+    width: 100%;
+  }
+  .page-nav .nav-container {
+    width: 100%;
+  }
+  .page-nav .nav-header a {
+    padding: 20px 10px;
+  }
+  .owl-carousel.item2 figure {
+    margin-top: 25px;
+  }
+}
+@media (max-width: 991px) {
+  .caption.item1:before {
+    left: 0;
+    width: 100%;
+  }
+  .content-intro.item1 li:before {
+    display: none;
+  }
+  .gallery.item1 .gallery-container {
+    margin: 0 -15px;
+  }
+  .gallery.item1 .gallery-container > .item1 {
+    margin: 0 0 60px;
+  }
+  .gallery.item1 .gallery-container > .item1 li {
+    padding: 1px;
+  }
+  .owl-carousel.item2 .owl-dots {
+    top: -32px;
+    text-align: left;
+  }
+  .owl-carousel.item2 .owl-dots .owl-dot {
+    width: 20px;
+    height: 5px;
+  }
+}
+@media (min-width: 992px) {
+  .call.item1 h6 {
+    font-size: 24px;
+  }
+}

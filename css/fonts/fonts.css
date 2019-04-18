@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'HeliosCond';
+    src: url('heliosCond/HeliosCond.eot');
+    src: url('heliosCond/HeliosCond.eot?#iefix') format('embedded-opentype'),
+    url('heliosCond/HeliosCond.woff2') format('woff2'),
+    url('heliosCond/HeliosCond.woff') format('woff'),
+    url('heliosCond/HeliosCond.ttf') format('truetype'),
+    url('heliosCond/HeliosCond.svg#HeliosCond') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HeliosCondBold';
+    src: url('heliosCond/HeliosCond Bold.eot');
+    src: url('heliosCond/HeliosCond Bold.eot?#iefix') format('embedded-opentype'),
+    url('heliosCond/HeliosCond Bold.woff2') format('woff2');
+    src: url('heliosCond/HeliosCondBold.woff') format('woff'),
+    url('heliosCond/HeliosCondBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HeliosCondBlack';
+    src: url('heliosCond/HeliosCondBlack.eot');
+    src: url('heliosCond/HeliosCondBlack.eot?#iefix') format('embedded-opentype'),
+    url('heliosCond/HeliosCondBlack.woff2') format('woff2'),
+    url('heliosCond/HeliosCondBlack.woff') format('woff'),
+    url('heliosCond/HeliosCondBlack.ttf') format('truetype'),
+    url('heliosCond/HeliosCondBlack.svg#HeliosCondBlack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
